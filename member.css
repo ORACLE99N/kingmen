@@ -193,6 +193,12 @@ h2 {
     transform: scale(1.05);
 }
 
+.elders img,
+.second img {
+    height: 200px;
+    object-fit: cover;
+}
+
 /* Responsive: 1 column on small screens */
 @media (max-width: 600px) {
     .members-grid {
